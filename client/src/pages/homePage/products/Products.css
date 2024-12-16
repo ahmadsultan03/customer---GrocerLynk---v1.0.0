@@ -1,0 +1,90 @@
+.p-heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #5f5d5d;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: #fbd35b;
+}
+
+.p-heading span{
+    color: #2c9984;
+}
+/* .icons{
+    background: #fff;
+    border: 1rem solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+} */
+
+.p-products{
+    width: 100%;
+    /* height:120%; */
+    
+    padding-bottom: 2rem;
+}
+
+.p-products .p-box_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    justify-content: center;
+    padding: 6rem;
+}
+
+
+
+
+
+@media only screen and (max-width:400px){
+    /* html{
+       font-size: 50%;
+    } */
+
+    .p-heading{
+       font-size: 3rem;
+    }
+
+    .p-products{
+        width: 100%;
+        /* height:120%; */
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        margin-top: 5rem;
+    }
+}
+
+
+
+
+
+
+
+
+.p-products .p-box_container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+    gap: 1rem; /* Space between the grid items */
+    padding-top: 5rem;
+    justify-content: center; /* Optional: Center the grid in its container */
+}
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+    .p-products .p-box_container {
+        grid-template-columns: repeat(2, 1fr); /* 2 products per row for tablets */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .p-products .p-box_container {
+        grid-template-columns: 1fr; /* 1 product per row for mobile screens */
+    }
+}
+
+.pc-discount {
+    display: none;
+}
+

@@ -1,0 +1,84 @@
+.ft-footer {
+  margin-top: 10rem;
+  width: 100%;
+  background: #ffd15d;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.ft-footer .ft-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ft-footer .ft-box {
+  flex: 1 1 calc(33.333% - 2rem); /* Flexibly divide into three columns with spacing */
+  min-width: 15rem;
+  max-width: 25rem;
+}
+
+.ft-footer .ft-box h3 {
+  color: #1ca890;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.ft-footer .ft-box a,
+.ft-footer .ft-box p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  display: block;
+}
+
+.ft-footer .ft-box a:hover {
+  color: #1ca890;
+  text-decoration: underline;
+}
+
+.ft-footer .ft-credit {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #333;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .ft-footer .ft-box-container {
+    flex-direction: column; /* Stack boxes vertically */
+    align-items: center;
+  }
+
+  .ft-footer .ft-box {
+    flex: 1 1 100%; /* Take full width for small screens */
+    max-width: 100%; /* Remove max-width constraint */
+    text-align: center; /* Center-align content */
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .ft-footer {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller devices */
+  }
+
+  .ft-footer .ft-box h3 {
+    font-size: 1rem; /* Reduce heading size */
+  }
+
+  .ft-footer .ft-box a,
+  .ft-footer .ft-box p {
+    font-size: 0.8rem; /* Adjust text size */
+  }
+
+  .ft-footer .ft-credit {
+    font-size: 0.9rem; /* Adjust credit text size */
+  }
+}
