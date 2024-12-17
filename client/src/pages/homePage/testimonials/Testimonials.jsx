@@ -24,14 +24,13 @@ const Testimonials = () => {
             <FontAwesomeIcon icon={faStar} className="rv-star" />
           </div>
           <p>
-            GrocerLynk is my grocery escape! Wallet-friendly, trendy finds, and a
-            shopping experience that's as easy as it is amazing.
+          GrocerLynk has been a game-changer for me. The variety of fresh produce, pantry items, and even specialty products is fantastic. The website is easy to navigate, and the delivery is always on time. I can’t imagine going back to grocery shopping in-store!
           </p>
 
           <div className="rv-user">
             <img src={user} alt="" />
             <div className="rv-user-info">
-              <h3> Samar S.</h3>
+              <h3>Rabia Sohail</h3>
               <span>Satisfied customer</span>
             </div>
           </div>
@@ -50,14 +49,13 @@ const Testimonials = () => {
             <FontAwesomeIcon icon={faStar} className="rv-star" />
           </div>
           <p>
-            GrocerLynk, Smooth navigation, speedy
-            deliveries, & a grocery haven for trendsetters like me.
+          I was skeptical about ordering fresh produce online, but GrocerLynk proved me wrong. Everything was delivered fresh and well-packaged. Their customer service is responsive, and the prices are competitive. Highly recommend this service!
           </p>
 
           <div className="rv-user">
             <img src={user2} alt="" />
             <div className="rv-user-info">
-              <h3> Ahmad S.</h3>
+              <h3>Ahmad Sultan</h3>
               <span>Satisfied customer</span>
             </div>
           </div>
@@ -75,15 +73,14 @@ const Testimonials = () => {
             <FontAwesomeIcon icon={faStar} className="rv-star" />
           </div>
           <p>
-            GrocerLynk is where grocery meets savings! Always in vogue, my ultimate go-to for grocery without the hefty price
-            tag.
+          GrocerLynk is a fantastic online grocery store. From ordering to delivery, everything is seamless. I highly recommend shopping from this website as it offers affordable prices too, and also has delivery services!
           </p>
 
           <div className="rv-user">
             <img src={user3} alt="" />
             <div className="rv-user-info">
-              <h3>Shandana.</h3>
-              <span>Happy customer</span>
+              <h3>Shandana Khattak</h3>
+              <span>Satisfied customer</span>
             </div>
           </div>
 
@@ -101,15 +98,14 @@ const Testimonials = () => {
             <FontAwesomeIcon icon={faStar} className="rv-star" />
           </div>
           <p>
-            GrocerLynk,you'ce got it all, you've won my heart! Diverse choices. It's
-            my grocery destination!.
+          Shopping for groceries has never been easier since I started using GrocerLynk. The website is intuitive, and it’s so convenient to have my order delivered straight to my door. 
           </p>
 
           <div className="rv-user">
             <img src={user4} alt="" />
             <div className="rv-user-info">
-              <h3>Bareera.</h3>
-              <span>Happy customer</span>
+              <h3>Samar Qaiser</h3>
+              <span>Satisfied customer</span>
             </div>
           </div>
 
